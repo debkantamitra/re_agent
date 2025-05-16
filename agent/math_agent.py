@@ -1,7 +1,10 @@
+import warnings
 from langchain.agents import initialize_agent, AgentType
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from tools.calculator import get_calculator_tool
 
+# Suppress the specific LangChain deprecation warning
+warnings.filterwarnings("ignore", message=".*LangChain agents will continue to be supported.*")
 
 def create_math_agent():
     llm = ChatOpenAI(
