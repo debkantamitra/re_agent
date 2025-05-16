@@ -1,4 +1,4 @@
-# 🧠 ReAgent — A Reasoning Agent with Dynamic Tool Use
+# 🧠 ReAgent — A Reasoning Agent
 
 **ReAgent** is a reasoning-first chatbot that uses the ReAct pattern to talk, think, and use tools (like a calculator, search, or Wikipedia) to help you intelligently.
 
